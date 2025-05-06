@@ -1,1 +1,133 @@
-new code
+
+{
+  "ChaseRequest" : {
+    "ChaseRequestHeader" : {
+      "AccountID" : "Z610",
+      "AuditType" : "DRG",
+      "RelatedChaseID" : "911",
+      "GlobalWorkforceApproved" : false,
+      "ProspectiveClaimFlag" : false,
+      "PrimaryChaseRequestProviderRole" : "RenderingProvider",
+      "ExternalChaseNumber" : "894986377",
+      "ChartType" : "Medical",
+      "ExplicitRequestGroupId" : null,
+      "PlanName" : "6",
+      "SubAccountId" : "D888",
+      "IntendedUse" : "RCA",
+      "ExpirationDate" : "2025-12-09",
+      "MRAvailableInClientSystem" : false,
+      "ClientID" : 13,
+      "MRClientSystemDCN" : "8478579337",
+      "PortalRequestCode" : "46378"
+    },
+    "ChaseDetails" : {
+      "MeasurementGap" : "Measure2",
+      "DOSChartRangeEnd1" : "2022-09-26",
+      "HedisMeasureID" : "HEDIS26",
+      "DOSChartRangeEnd3" : "2022-09-26",
+      "DOSChartRangeEnd2" : "2022-09-26",
+      "MedicareAdvantagecontractNumber" : "MA353",
+      "RetrievalRank" : 8,
+      "DeliveryDate" : "2022-09-26",
+      "ChasePriority" : "High",
+      "SubMeasurementGap" : "SubMeasure5",
+      "RADVEnrolleeID" : "RADV3354",
+      "DOSChartRangeStart4" : "2022-09-26",
+      "DOSChartRangeStart3" : "2022-09-26",
+      "DOSChartRangeEnd4" : "2022-09-26",
+      "IsOversampleFlag" : true,
+      "DOSChartRangeStart2" : "2022-09-26",
+      "DOSChartRangeStart1" : "2022-09-26"
+    },
+    "ClaimDetails" : {
+      "DateOfServiceEnd" : "2025-01-01",
+      "RenderingProviderIdx" : 2,
+      "ClientClaimNumber" : "5106326342",
+      "PatientMemberIdx" : 2,
+      "DateOfServiceStart" : "2019-02-01",
+      "InNetwork" : true,
+      "TotalClaimAmt" : 1666.09,
+      "ProviderSpecialty" : "test",
+      "BillingProviderIdx" : 1,
+      "CotivitiClaimNumber" : "1746514289",
+      "SubscriberMemberIdx" : 1,
+      "ClaimType" : "S"
+    },
+    "Providers" : [ {
+      "Provider" : {
+        "Zip" : "60923",
+        "FirstName" : "",
+        "NPI" : "1699078592",
+        "Address2" : "Suite 358",
+        "Address1" : "33259 Anthony Streets Suite 145",
+        "City" : "West Jenna",
+        "Name" : "Leblanc Chiropractic",
+        "Phone1" : "147-764-4955",
+        "Phone3" : "586-128-4316",
+        "Phone2" : "746-655-2864",
+        "State" : "LA",
+        "TIN" : "628766168",
+        "LastName" : "",
+        "Fax" : "498-946-3184",
+        "ClientProviderId" : "P628385031024"
+      }
+    }, {
+      "Provider" : {
+        "Zip" : "24232",
+        "FirstName" : "",
+        "NPI" : "1619313491",
+        "Address2" : "Suite 660",
+        "Address1" : "644 Rachel Ridge Apt. 945",
+        "City" : "East Victoriaborough",
+        "Name" : "Roberts Evan",
+        "Phone1" : "998-877-6655",
+        "Phone3" : "586-128-4316",
+        "Phone2" : "746-655-2864",
+        "State" : "MS",
+        "TIN" : "161931349",
+        "LastName" : "",
+        "Fax" : "498-946-3184",
+        "ClientProviderId" : "P628385031024"
+      }
+    } ],
+    "Members" : [ {
+      "Member" : {
+        "Zip" : "62417",
+        "FirstName" : "Doe",
+        "Address2" : "Apt. 736",
+        "Address1" : "048 Hinton Loop Apt. 872",
+        "City" : "Kathleenside",
+        "Gender" : "M",
+        "HICN" : "716351468",
+        "SSN" : "495-92-8935",
+        "MBI" : "98716",
+        "State" : "KY",
+        "DOB" : "1983-04-18",
+        "PatientId" : "4145",
+        "LastName" : "John",
+        "RecordNumber" : "87618",
+        "ControlNumber" : "9679",
+        "ClientMemberID" : "89225"
+      }
+    }, {
+      "Member" : {
+        "Zip" : "62417",
+        "FirstName" : "Thomas",
+        "Address2" : "Suite 660",
+        "Address1" : "644 Rachel Ridge Apt. 945",
+        "City" : "East Victoriaborough",
+        "Gender" : "M",
+        "HICN" : "716321468",
+        "SSN" : "699-92-8935",
+        "MBI" : "98716",
+        "State" : "MS",
+        "DOB" : "1983-04-18",
+        "PatientId" : "2145",
+        "LastName" : "Evan",
+        "RecordNumber" : "87628",
+        "ControlNumber" : "9679",
+        "ClientMemberID" : "77340"
+      }
+    } ]
+  }
+}
